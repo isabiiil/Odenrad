@@ -1,5 +1,6 @@
 import React from 'react';
 import { Text, StyleSheet } from 'react-native';
+import { Card } from 'react-native-elements'
 import { SafeAreaProvider } from 'react-native-safe-area-context';
 import { NavigationContainer } from '@react-navigation/native';
 import { createMaterialBottomTabNavigator } from '@react-navigation/material-bottom-tabs';
@@ -9,6 +10,21 @@ function Incidents() {
   return (
     <SafeAreaProvider style={{ flex: 1, justifyContent: 'center', alignItems: 'center' }}>
       <Text>Incidents!</Text>
+      <Card>
+        <Card.Title>REPORT</Card.Title>
+        <Card.Divider/>
+        <Text>yada yada</Text>
+      </Card>
+      <Card>
+        <Card.Title>REPORT</Card.Title>
+        <Card.Divider/>
+        <Text>yada yada</Text>
+      </Card>
+      <Card>
+        <Card.Title>REPORT</Card.Title>
+        <Card.Divider/>
+        <Text>yada yada</Text>
+      </Card>
     </SafeAreaProvider>
   );
 }
@@ -17,6 +33,31 @@ function Machines() {
   return (
     <SafeAreaProvider style={{ flex: 1, justifyContent: 'center', alignItems: 'center' }}>
       <Text>Machines!</Text>
+      <Card>
+        <Card.Title>Machine 1</Card.Title>
+        <Card.Divider/>
+        <Text>yada yada</Text>
+      </Card>
+      <Card>
+        <Card.Title>Machine 2</Card.Title>
+        <Card.Divider/>
+        <Text>yada yada</Text>
+      </Card>
+      <Card>
+        <Card.Title>Machine 3</Card.Title>
+        <Card.Divider/>
+        <Text>something bad happened</Text>
+      </Card>
+      <Card>
+        <Card.Title>Machine 4</Card.Title>
+        <Card.Divider/>
+        <Text>yada yada</Text>
+      </Card>
+      <Card>
+        <Card.Title>Machine 5</Card.Title>
+        <Card.Divider/>
+        <Text>yada yada</Text>
+      </Card>
     </SafeAreaProvider>
   );
 }
